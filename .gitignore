@@ -1,0 +1,37 @@
+# Секреты
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Сессии и состояние
+*.session
+*.session-journal
+STATE_FILE*
+state.json
+
+# Данные
+*.db
+*.sqlite
+*.sqlite3
+*.log
+log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
